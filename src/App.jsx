@@ -151,6 +151,13 @@ function App() {
   >
     LinkedIn
   </a>
+  <a
+  href="https://calendly.com/qrrajarpnl/30min"
+  target="_blank"
+  rel="noreferrer"
+>
+  Book a Meeting
+</a>
 
   <a href="#contact">Contact</a>
 </div>
