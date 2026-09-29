@@ -1,4 +1,6 @@
 import "./App.css";
+import ContactForm from "./ContactForm";
+import Projects from "./Projects";
 
 function App() {
   return (
@@ -65,34 +67,7 @@ function App() {
         </div>
       </section>
 
-      <section>
-        <h2>Projects</h2>
-
-        <article>
-          <h3>Cattle Marketplace</h3>
-          <p>
-            A full-stack cattle marketplace built with Flutter and MERN,
-            including authentication, listings, chat, administration, and
-            AI-based cattle weight estimation.
-          </p>
-        </article>
-
-        <article>
-          <h3>Aspect-Based Sentiment Analysis</h3>
-          <p>
-            An NLP project focused on extracting product aspects and analyzing
-            sentiment from customer reviews.
-          </p>
-        </article>
-
-        <article>
-          <h3>AI & Computer Vision Projects</h3>
-          <p>
-            Practical projects involving Machine Learning, Computer Vision,
-            NLP, and intelligent systems.
-          </p>
-        </article>
-      </section>
+      <Projects />
 
       <section>
         <h2>Experience</h2>
@@ -124,43 +99,44 @@ function App() {
           Interested in working together or discussing an AI/ML project?
         </p>
 
+        <ContactForm />
+
         <div className="buttons">
           <a href="mailto:qrrajarpnl@gmail.com">Email Me</a>
 
-        <div className="buttons">
-  <a
-  href="/Qurban-Ali-CV.pdf"
-  target="_blank"
-  rel="noreferrer"
->
-  View CV
-</a>
+          <a
+            href="/Qurban_Ali_CV.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View CV
+          </a>
 
-  <a
-    href="https://github.com/qurban-12"
-    target="_blank"
-    rel="noreferrer"
-  >
-    GitHub
-  </a>
+          <a
+            href="https://github.com/qurban-12"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
 
-  <a
-    href="https://linkedin.com/in/qurban-ali-deveploer-researcher/"
-    target="_blank"
-    rel="noreferrer"
-  >
-    LinkedIn
-  </a>
-  <a
-  href="https://calendly.com/qrrajarpnl/30min"
-  target="_blank"
-  rel="noreferrer"
->
-  Book a Meeting
-</a>
+          <a
+            href="https://linkedin.com/in/qurban-ali-deveploer-researcher/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
 
-  <a href="#contact">Contact</a>
-</div>
+          <a
+            href="https://calendly.com/qrrajarpnl/30min"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Book a Meeting
+          </a>
+
+          <a href="#contact">Contact</a>
         </div>
       </section>
 
