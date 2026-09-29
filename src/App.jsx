@@ -146,7 +146,7 @@ function App() {
 
           <a
             className="badge-link"
-            href="https://internship.flyrank.ai/verify"
+            href="https://internship.flyrank.ai/verify?id=FR-D1-T668H-R789R&first_name=Amina"
             target="_blank"
             rel="noreferrer"
             aria-label="View FlyRank graduate verification"
