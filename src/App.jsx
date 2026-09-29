@@ -140,8 +140,21 @@ function App() {
         </div>
       </section>
 
-      <footer>
-        <p>© 2026 Qurban Ali Rajar</p>
+      <footer className="site-footer">
+        <div className="footer-content">
+          <p>© 2026 Qurban Ali Rajar</p>
+
+          <a
+            className="badge-link"
+            href="https://internship.flyrank.ai/verify"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="View FlyRank graduate verification"
+          >
+            <span className="badge-mark">FR</span>
+            <span>FlyRank Graduate</span>
+          </a>
+        </div>
       </footer>
     </div>
   );

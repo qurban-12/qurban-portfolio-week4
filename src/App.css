@@ -11,6 +11,23 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: #f5f7fb;
   color: #1f2937;
+  line-height: 1.6;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.a11y-focus,
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 3px;
 }
 
 .portfolio {
@@ -195,10 +212,45 @@ article h3 {
   .contact-form input, .contact-form textarea { font-size: 16px; }
 }
 
-footer {
+.site-footer {
+  padding: 30px 10px 10px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
   text-align: center;
-  padding: 30px 10px;
   color: #6b7280;
+}
+
+.badge-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #dbeafe;
+  background: #ffffff;
+  color: #1f2937;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.08);
+}
+
+.badge-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
 }
 
 @media (max-width: 600px) {
@@ -224,5 +276,15 @@ footer {
 
   .projects-grid {
     grid-template-columns: 1fr;
+  }
+
+  .buttons a,
+  .btn-primary,
+  .btn-outline,
+  .contact-form button {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
 }
